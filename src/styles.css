@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #0f172a;
+  color: #f8fafc;
+}
+
+table {
+  width: 800px;
+  border: 1px solid #f8fafc;
+  text-align:center;
+  border-collapse: collapse;
+}
+
+thead tr:first-of-type {
+  height: 50px;
+  background-color: #334155;
+}
+
+th,
+td {
+  border: 1px solid #f8fafc;
+  padding: 0.5rem;
+}
+
+th span {
+  margin-right: 1rem;
+}
+
+input {
+  -webkit-appearance: none;
+  border: none;
+  border-bottom: 1px solid rgba(163, 218, 255, 0.543);
+  color: #eff6ff;
+  padding: 0.5rem 0.7rem;
+  width: 90%;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+input:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgba(163, 218, 255, 0.543);
+}
+
+button {
+  cursor: pointer;
+  background-color: #eff6ff;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.pagination {
+  width: 800px;
+  margin-top: 0.25rem;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #f8fafc;
+  padding: 0.5rem 1rem;
+}
+
+.clearAll {
+  padding: 5px;
+}
